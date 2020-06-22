@@ -6,3 +6,11 @@ F:\校内课程\计算机组成原理\课设\ALU\ALU\obj\x86\Debug\ALU.csproj.Ge
 F:\校内课程\计算机组成原理\课设\ALU\ALU\obj\x86\Debug\ALU.exe
 F:\校内课程\计算机组成原理\课设\ALU\ALU\obj\x86\Debug\ALU.pdb
 F:\校内课程\计算机组成原理\课设\ALU\ALU\obj\x86\Debug\ALU.csprojResolveAssemblyReference.cache
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\obj\x86\Debug\ALU.exe
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\obj\x86\Debug\ALU.pdb
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\bin\Debug\ALU.exe
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\bin\Debug\ALU.pdb
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\obj\x86\Debug\ALU.csprojResolveAssemblyReference.cache
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\obj\x86\Debug\ALU.Form1.resources
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\obj\x86\Debug\ALU.Properties.Resources.resources
+F:\校内课程\计算机组成原理\课设\8bit-CLA\ALU\obj\x86\Debug\ALU.csproj.GenerateResource.Cache
