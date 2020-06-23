@@ -1,6 +1,6 @@
 ﻿namespace ALU
 {
-    partial class Form1
+    partial class Form1_wwh
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1_wwh));
             this.title = new System.Windows.Forms.Label();
             this.checkBox_a6 = new System.Windows.Forms.CheckBox();
             this.checkBox_a7 = new System.Windows.Forms.CheckBox();
@@ -373,7 +373,7 @@
             // 
             // start
             // 
-            this.start.Location = new System.Drawing.Point(8, 58);
+            this.start.Location = new System.Drawing.Point(8, 21);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(83, 43);
             this.start.TabIndex = 21;
@@ -384,17 +384,17 @@
             // input_result
             // 
             this.input_result.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.input_result.Location = new System.Drawing.Point(118, 490);
+            this.input_result.Location = new System.Drawing.Point(143, 21);
             this.input_result.Multiline = true;
             this.input_result.Name = "input_result";
             this.input_result.ReadOnly = true;
-            this.input_result.Size = new System.Drawing.Size(383, 43);
+            this.input_result.Size = new System.Drawing.Size(347, 43);
             this.input_result.TabIndex = 22;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(115, 474);
+            this.label1.Location = new System.Drawing.Point(93, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(52, 15);
             this.label1.TabIndex = 23;
@@ -445,7 +445,7 @@
             this.groupBox2.Controls.Add(this.checkBox_c8);
             this.groupBox2.Controls.Add(this.checkBox_c2);
             this.groupBox2.Controls.Add(this.checkBox_c6);
-            this.groupBox2.Location = new System.Drawing.Point(12, 190);
+            this.groupBox2.Location = new System.Drawing.Point(15, 161);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(502, 222);
             this.groupBox2.TabIndex = 24;
@@ -835,9 +835,11 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.start);
-            this.groupBox3.Location = new System.Drawing.Point(13, 432);
+            this.groupBox3.Controls.Add(this.input_result);
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Location = new System.Drawing.Point(13, 389);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(501, 159);
+            this.groupBox3.Size = new System.Drawing.Size(501, 81);
             this.groupBox3.TabIndex = 25;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "结果显示";
@@ -1346,8 +1348,6 @@
             this.Controls.Add(this.label40);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.input_result);
             this.Controls.Add(this.checkBox_b4);
             this.Controls.Add(this.checkBox_b3);
             this.Controls.Add(this.checkBox_b2);
@@ -1374,6 +1374,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

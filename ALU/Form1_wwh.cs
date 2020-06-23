@@ -10,9 +10,15 @@ using System.Windows.Forms;
 
 namespace ALU
 {
-    public partial class Form1 : Form
+    /*
+     * @author: wwhao
+     * 1.超前进位加法器
+     * 2.内部补码运算使加减法统一
+     * 3.输出显示真值
+     */
+    public partial class Form1_wwh : Form
     {
-        public Form1()
+        public Form1_wwh()
         {
             InitializeComponent();
         }
