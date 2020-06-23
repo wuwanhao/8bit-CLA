@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>8位超前进位加法器的实现</title>
+  </head>
+  <body>
+    <h3>8位超前进位加法器实验</h3>
+    <div>
+      <p>普通串行进位加法器由低到高逐级进位，运算速度很慢，<br>超前进位加法器所有位数的进位同时产生，运算速度更快</p>
+    </div>
+    <br>
+    <div class="main" style="display: flex; flex-direction: column; justify-content: space-between">
+      <div class="table">
+        <table border="1">
+          <tbody>
+          <tr bgcolor="#f3f3f3" style="height: 25px">
+            <td style="width: 70px">加数1</td>
+            <td><input type="checkbox" name="a">a7</td>
+            <td><input type="checkbox" name="a">a6</td>
+            <td><input type="checkbox" name="a">a5</td>
+            <td><input type="checkbox" name="a">a4</td>
+            <td><input type="checkbox" name="a">a3</td>
+            <td><input type="checkbox" name="a">a2</td>
+            <td><input type="checkbox" name="a">a1</td>
+            <td><input type="checkbox" name="a">a0</td>
+          </tr>
+          <tr bgcolor="#f3f3f3" style="height: 25px">
+            <td style="width: 70px">加数2</td>
+            <td><input type="checkbox" name="b">b7</td>
+            <td><input type="checkbox" name="b">b6</td>
+            <td><input type="checkbox" name="b">b5</td>
+            <td><input type="checkbox" name="b">b4</td>
+            <td><input type="checkbox" name="b">b3</td>
+            <td><input type="checkbox" name="b">b2</td>
+            <td><input type="checkbox" name="b">b1</td>
+            <td><input type="checkbox" name="b">b0</td>
+          </tr>
+          <tr height="25px"><td colspan="9"></td></tr>
+          <tr style="height: 25px">
+            <td rowspan="2" style="width: 70px">是否进位</td>
+            <td width="40px">c8</td>
+            <td width="40px">c7</td>
+            <td width="40px">c6</td>
+            <td width="40px">c5</td>
+            <td width="40px">c4</td>
+            <td width="40px">c3</td>
+            <td width="40px">c2</td>
+            <td width="40px">c1</td>
+          </tr>
+          <tr bgcolor="#e9faff" style="font-weight: bold; height: 25px">
+            <td height="20px" name="c"></td>
+            <td name="c"></td>
+            <td name="c"></td>
+            <td name="c"></td>
+            <td name="c"></td>
+            <td name="c"></td>
+            <td name="c"></td>
+            <td name="c"></td>
+          </tr>
+          <tr style="height: 25px">
+            <td rowspan="2" style="width: 70px">传递进位</td>
+            <td>p7</td>
+            <td>p6</td>
+            <td>p5</td>
+            <td>p4</td>
+            <td>p3</td>
+            <td>p2</td>
+            <td>p1</td>
+            <td>p0</td>
+          </tr>
+          <tr bgcolor="#e9faff" style="font-weight: bold; height: 25px" >
+            <td name="p"></td>
+            <td name="p"></td>
+            <td name="p"></td>
+            <td name="p"></td>
+            <td name="p"></td>
+            <td name="p"></td>
+            <td name="p"></td>
+            <td name="p"></td>
+          </tr>
+          <tr style="height: 25px">
+            <td rowspan="2" style="width: 70px">本地进位</td>
+            <td>g7</td>
+            <td>g6</td>
+            <td>g5</td>
+            <td>g4</td>
+            <td>g3</td>
+            <td>g2</td>
+            <td>g1</td>
+            <td>g0</td>
+          </tr>
+          <tr bgcolor="#e9faff" style="font-weight: bold; height: 25px">
+            <td name="g"></td>
+            <td name="g"></td>
+            <td name="g"></td>
+            <td name="g"></td>
+            <td name="g"></td>
+            <td name="g"></td>
+            <td name="g"></td>
+            <td name="g"></td>
+          </tr>
+          </tbody>
+        </table>
+        <br>
+        <div>
+          <button id="start" onclick="getValue()">开始运算</button>
+          <span style="margin-left: 135px">
+          结果显示
+          <input type="input" id="res">
+        </span>
+        </div>
+      </div>
+      <br>
+      <div class="introduction">
+        <img style="height: 400px; width: 800px border-box" src="introduction.png">
+      </div>
+    </div>
+  </body>
+
+  <script type="text/javascript" src="index.js"></script>
+</html>
