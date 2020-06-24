@@ -30,29 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1_wwh));
             this.title = new System.Windows.Forms.Label();
-            this.checkBox_a6 = new System.Windows.Forms.CheckBox();
-            this.checkBox_a7 = new System.Windows.Forms.CheckBox();
             this.num1 = new System.Windows.Forms.Label();
-            this.checkBox_a5 = new System.Windows.Forms.CheckBox();
-            this.checkBox_a1 = new System.Windows.Forms.CheckBox();
-            this.checkBox_a2 = new System.Windows.Forms.CheckBox();
-            this.checkBox_a3 = new System.Windows.Forms.CheckBox();
-            this.checkBox_a4 = new System.Windows.Forms.CheckBox();
-            this.checkBox_a0 = new System.Windows.Forms.CheckBox();
-            this.checkBox_b0 = new System.Windows.Forms.CheckBox();
-            this.checkBox_b4 = new System.Windows.Forms.CheckBox();
-            this.checkBox_b3 = new System.Windows.Forms.CheckBox();
-            this.checkBox_b2 = new System.Windows.Forms.CheckBox();
-            this.checkBox_b1 = new System.Windows.Forms.CheckBox();
-            this.checkBox_b5 = new System.Windows.Forms.CheckBox();
             this.num2 = new System.Windows.Forms.Label();
-            this.checkBox_b7 = new System.Windows.Forms.CheckBox();
-            this.checkBox_b6 = new System.Windows.Forms.CheckBox();
             this.isCarry = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.start = new System.Windows.Forms.Button();
             this.input_result = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
@@ -144,6 +127,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label40 = new System.Windows.Forms.Label();
+            this.num1_wwh = new System.Windows.Forms.TextBox();
+            this.num2_wwh = new System.Windows.Forms.TextBox();
+            this.oriData1_wwh = new System.Windows.Forms.TextBox();
+            this.oriData2_wwh = new System.Windows.Forms.TextBox();
+            this.deciNum = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -151,13 +143,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // title
             // 
             this.title.AutoSize = true;
             this.title.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.title.Location = new System.Drawing.Point(568, 9);
+            this.title.Location = new System.Drawing.Point(829, 9);
             this.title.Name = "title";
             this.title.Size = new System.Drawing.Size(273, 24);
             this.title.TabIndex = 0;
@@ -165,188 +158,25 @@
             this.title.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.title.Click += new System.EventHandler(this.label1_Click);
             // 
-            // checkBox_a6
-            // 
-            this.checkBox_a6.AutoSize = true;
-            this.checkBox_a6.Location = new System.Drawing.Point(150, 82);
-            this.checkBox_a6.Name = "checkBox_a6";
-            this.checkBox_a6.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a6.TabIndex = 1;
-            this.checkBox_a6.Text = "a6";
-            this.checkBox_a6.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_a7
-            // 
-            this.checkBox_a7.AutoSize = true;
-            this.checkBox_a7.Location = new System.Drawing.Point(99, 81);
-            this.checkBox_a7.Name = "checkBox_a7";
-            this.checkBox_a7.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a7.TabIndex = 2;
-            this.checkBox_a7.Text = "a7";
-            this.checkBox_a7.UseVisualStyleBackColor = true;
-            // 
             // num1
             // 
             this.num1.AutoSize = true;
             this.num1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.num1.Location = new System.Drawing.Point(6, 32);
+            this.num1.Location = new System.Drawing.Point(6, 38);
             this.num1.Name = "num1";
-            this.num1.Size = new System.Drawing.Size(48, 15);
+            this.num1.Size = new System.Drawing.Size(64, 15);
             this.num1.TabIndex = 3;
-            this.num1.Text = "加数1";
-            // 
-            // checkBox_a5
-            // 
-            this.checkBox_a5.AutoSize = true;
-            this.checkBox_a5.Location = new System.Drawing.Point(201, 82);
-            this.checkBox_a5.Name = "checkBox_a5";
-            this.checkBox_a5.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a5.TabIndex = 4;
-            this.checkBox_a5.Text = "a5";
-            this.checkBox_a5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_a1
-            // 
-            this.checkBox_a1.AutoSize = true;
-            this.checkBox_a1.Location = new System.Drawing.Point(405, 82);
-            this.checkBox_a1.Name = "checkBox_a1";
-            this.checkBox_a1.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a1.TabIndex = 5;
-            this.checkBox_a1.Text = "a1";
-            this.checkBox_a1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_a2
-            // 
-            this.checkBox_a2.AutoSize = true;
-            this.checkBox_a2.Location = new System.Drawing.Point(354, 82);
-            this.checkBox_a2.Name = "checkBox_a2";
-            this.checkBox_a2.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a2.TabIndex = 6;
-            this.checkBox_a2.Text = "a2";
-            this.checkBox_a2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_a3
-            // 
-            this.checkBox_a3.AutoSize = true;
-            this.checkBox_a3.Location = new System.Drawing.Point(303, 82);
-            this.checkBox_a3.Name = "checkBox_a3";
-            this.checkBox_a3.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a3.TabIndex = 7;
-            this.checkBox_a3.Text = "a3";
-            this.checkBox_a3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_a4
-            // 
-            this.checkBox_a4.AutoSize = true;
-            this.checkBox_a4.Location = new System.Drawing.Point(252, 82);
-            this.checkBox_a4.Name = "checkBox_a4";
-            this.checkBox_a4.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a4.TabIndex = 8;
-            this.checkBox_a4.Text = "a4";
-            this.checkBox_a4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_a0
-            // 
-            this.checkBox_a0.AutoSize = true;
-            this.checkBox_a0.Location = new System.Drawing.Point(444, 32);
-            this.checkBox_a0.Name = "checkBox_a0";
-            this.checkBox_a0.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_a0.TabIndex = 9;
-            this.checkBox_a0.Text = "a0";
-            this.checkBox_a0.UseVisualStyleBackColor = true;
-            this.checkBox_a0.CheckedChanged += new System.EventHandler(this.a0_CheckedChanged);
-            // 
-            // checkBox_b0
-            // 
-            this.checkBox_b0.AutoSize = true;
-            this.checkBox_b0.Location = new System.Drawing.Point(444, 69);
-            this.checkBox_b0.Name = "checkBox_b0";
-            this.checkBox_b0.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b0.TabIndex = 18;
-            this.checkBox_b0.Text = "b0";
-            this.checkBox_b0.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_b4
-            // 
-            this.checkBox_b4.AutoSize = true;
-            this.checkBox_b4.Location = new System.Drawing.Point(252, 119);
-            this.checkBox_b4.Name = "checkBox_b4";
-            this.checkBox_b4.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b4.TabIndex = 17;
-            this.checkBox_b4.Text = "b4";
-            this.checkBox_b4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_b3
-            // 
-            this.checkBox_b3.AutoSize = true;
-            this.checkBox_b3.Location = new System.Drawing.Point(303, 119);
-            this.checkBox_b3.Name = "checkBox_b3";
-            this.checkBox_b3.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b3.TabIndex = 16;
-            this.checkBox_b3.Text = "b3";
-            this.checkBox_b3.UseVisualStyleBackColor = true;
-            this.checkBox_b3.CheckedChanged += new System.EventHandler(this.b3_CheckedChanged);
-            // 
-            // checkBox_b2
-            // 
-            this.checkBox_b2.AutoSize = true;
-            this.checkBox_b2.Location = new System.Drawing.Point(354, 119);
-            this.checkBox_b2.Name = "checkBox_b2";
-            this.checkBox_b2.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b2.TabIndex = 15;
-            this.checkBox_b2.Text = "b2";
-            this.checkBox_b2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_b1
-            // 
-            this.checkBox_b1.AutoSize = true;
-            this.checkBox_b1.Location = new System.Drawing.Point(405, 119);
-            this.checkBox_b1.Name = "checkBox_b1";
-            this.checkBox_b1.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b1.TabIndex = 14;
-            this.checkBox_b1.Text = "b1";
-            this.checkBox_b1.UseVisualStyleBackColor = true;
-            this.checkBox_b1.CheckedChanged += new System.EventHandler(this.b1_CheckedChanged);
-            // 
-            // checkBox_b5
-            // 
-            this.checkBox_b5.AutoSize = true;
-            this.checkBox_b5.Location = new System.Drawing.Point(201, 119);
-            this.checkBox_b5.Name = "checkBox_b5";
-            this.checkBox_b5.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b5.TabIndex = 13;
-            this.checkBox_b5.Text = "b5";
-            this.checkBox_b5.UseVisualStyleBackColor = true;
+            this.num1.Text = "运算数1";
             // 
             // num2
             // 
             this.num2.AutoSize = true;
             this.num2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.num2.Location = new System.Drawing.Point(6, 68);
+            this.num2.Location = new System.Drawing.Point(6, 74);
             this.num2.Name = "num2";
-            this.num2.Size = new System.Drawing.Size(48, 15);
+            this.num2.Size = new System.Drawing.Size(64, 15);
             this.num2.TabIndex = 12;
-            this.num2.Text = "加数2";
-            // 
-            // checkBox_b7
-            // 
-            this.checkBox_b7.AutoSize = true;
-            this.checkBox_b7.Location = new System.Drawing.Point(99, 118);
-            this.checkBox_b7.Name = "checkBox_b7";
-            this.checkBox_b7.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b7.TabIndex = 11;
-            this.checkBox_b7.Text = "b7";
-            this.checkBox_b7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_b6
-            // 
-            this.checkBox_b6.AutoSize = true;
-            this.checkBox_b6.Location = new System.Drawing.Point(150, 119);
-            this.checkBox_b6.Name = "checkBox_b6";
-            this.checkBox_b6.Size = new System.Drawing.Size(45, 19);
-            this.checkBox_b6.TabIndex = 10;
-            this.checkBox_b6.Text = "b6";
-            this.checkBox_b6.UseVisualStyleBackColor = true;
+            this.num2.Text = "运算数2";
             // 
             // isCarry
             // 
@@ -360,22 +190,25 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox_b0);
-            this.groupBox1.Controls.Add(this.checkBox_a0);
+            this.groupBox1.Controls.Add(this.oriData2_wwh);
+            this.groupBox1.Controls.Add(this.num2_wwh);
             this.groupBox1.Controls.Add(this.num1);
+            this.groupBox1.Controls.Add(this.num1_wwh);
             this.groupBox1.Controls.Add(this.num2);
+            this.groupBox1.Controls.Add(this.oriData1_wwh);
             this.groupBox1.Location = new System.Drawing.Point(12, 50);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(502, 105);
+            this.groupBox1.Size = new System.Drawing.Size(573, 126);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "输入数据";
             // 
             // start
             // 
-            this.start.Location = new System.Drawing.Point(8, 21);
+            this.start.Font = new System.Drawing.Font("宋体", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.start.Location = new System.Drawing.Point(57, 46);
             this.start.Name = "start";
-            this.start.Size = new System.Drawing.Size(83, 43);
+            this.start.Size = new System.Drawing.Size(115, 51);
             this.start.TabIndex = 21;
             this.start.Text = "开始计算";
             this.start.UseVisualStyleBackColor = true;
@@ -383,22 +216,13 @@
             // 
             // input_result
             // 
-            this.input_result.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.input_result.Location = new System.Drawing.Point(143, 21);
+            this.input_result.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.input_result.Location = new System.Drawing.Point(291, 72);
             this.input_result.Multiline = true;
             this.input_result.Name = "input_result";
             this.input_result.ReadOnly = true;
-            this.input_result.Size = new System.Drawing.Size(347, 43);
+            this.input_result.Size = new System.Drawing.Size(213, 43);
             this.input_result.TabIndex = 22;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(93, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
-            this.label1.TabIndex = 23;
-            this.label1.Text = "显示屏";
             // 
             // groupBox2
             // 
@@ -445,9 +269,9 @@
             this.groupBox2.Controls.Add(this.checkBox_c8);
             this.groupBox2.Controls.Add(this.checkBox_c2);
             this.groupBox2.Controls.Add(this.checkBox_c6);
-            this.groupBox2.Location = new System.Drawing.Point(15, 161);
+            this.groupBox2.Location = new System.Drawing.Point(15, 209);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(502, 222);
+            this.groupBox2.Size = new System.Drawing.Size(570, 222);
             this.groupBox2.TabIndex = 24;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "过程信息显示";
@@ -834,12 +658,14 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label41);
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.deciNum);
             this.groupBox3.Controls.Add(this.start);
             this.groupBox3.Controls.Add(this.input_result);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Location = new System.Drawing.Point(13, 389);
+            this.groupBox3.Location = new System.Drawing.Point(15, 443);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(501, 81);
+            this.groupBox3.Size = new System.Drawing.Size(570, 133);
             this.groupBox3.TabIndex = 25;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "结果显示";
@@ -889,9 +715,9 @@
             this.groupBox4.Controls.Add(this.label20);
             this.groupBox4.Controls.Add(this.label19);
             this.groupBox4.Controls.Add(this.pictureBox2);
-            this.groupBox4.Location = new System.Drawing.Point(548, 50);
+            this.groupBox4.Location = new System.Drawing.Point(627, 50);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(908, 849);
+            this.groupBox4.Size = new System.Drawing.Size(928, 849);
             this.groupBox4.TabIndex = 26;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "以4位超前进位加法器为例核心电路图";
@@ -1302,9 +1128,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(119, 32);
+            this.pictureBox2.Location = new System.Drawing.Point(114, 32);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(682, 768);
+            this.pictureBox2.Size = new System.Drawing.Size(689, 768);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
@@ -1312,9 +1138,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(5, 23);
+            this.pictureBox1.Location = new System.Drawing.Point(17, 26);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(485, 263);
+            this.pictureBox1.Size = new System.Drawing.Size(531, 265);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -1323,9 +1149,9 @@
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.pictureBox1);
-            this.groupBox5.Location = new System.Drawing.Point(16, 598);
+            this.groupBox5.Location = new System.Drawing.Point(12, 591);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(498, 301);
+            this.groupBox5.Size = new System.Drawing.Size(573, 308);
             this.groupBox5.TabIndex = 27;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "4比特超前进位加法器结构图";
@@ -1333,41 +1159,116 @@
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(19, 917);
+            this.label40.Font = new System.Drawing.Font("等线", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label40.Location = new System.Drawing.Point(18, 990);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(309, 15);
+            this.label40.Size = new System.Drawing.Size(386, 19);
             this.label40.TabIndex = 28;
-            this.label40.Text = "华北理工大学 18计2  201814600204 武万浩";
+            this.label40.Text = "©华北理工大学 18计2  201814600204 武万浩";
             // 
-            // Form1
+            // num1_wwh
+            // 
+            this.num1_wwh.Location = new System.Drawing.Point(76, 33);
+            this.num1_wwh.Name = "num1_wwh";
+            this.num1_wwh.Size = new System.Drawing.Size(99, 25);
+            this.num1_wwh.TabIndex = 0;
+            // 
+            // num2_wwh
+            // 
+            this.num2_wwh.Location = new System.Drawing.Point(76, 71);
+            this.num2_wwh.Name = "num2_wwh";
+            this.num2_wwh.Size = new System.Drawing.Size(99, 25);
+            this.num2_wwh.TabIndex = 1;
+            // 
+            // oriData1_wwh
+            // 
+            this.oriData1_wwh.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.oriData1_wwh.Location = new System.Drawing.Point(222, 29);
+            this.oriData1_wwh.Multiline = true;
+            this.oriData1_wwh.Name = "oriData1_wwh";
+            this.oriData1_wwh.ReadOnly = true;
+            this.oriData1_wwh.Size = new System.Drawing.Size(270, 30);
+            this.oriData1_wwh.TabIndex = 34;
+            // 
+            // oriData2_wwh
+            // 
+            this.oriData2_wwh.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.oriData2_wwh.Location = new System.Drawing.Point(222, 67);
+            this.oriData2_wwh.Multiline = true;
+            this.oriData2_wwh.Name = "oriData2_wwh";
+            this.oriData2_wwh.ReadOnly = true;
+            this.oriData2_wwh.Size = new System.Drawing.Size(270, 30);
+            this.oriData2_wwh.TabIndex = 35;
+            // 
+            // deciNum
+            // 
+            this.deciNum.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold);
+            this.deciNum.Location = new System.Drawing.Point(291, 23);
+            this.deciNum.Multiline = true;
+            this.deciNum.Name = "deciNum";
+            this.deciNum.ReadOnly = true;
+            this.deciNum.Size = new System.Drawing.Size(213, 43);
+            this.deciNum.TabIndex = 24;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(243, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(37, 15);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "真值";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(234, 85);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(52, 15);
+            this.label41.TabIndex = 26;
+            this.label41.Text = "二进制";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.richTextBox1);
+            this.groupBox6.Location = new System.Drawing.Point(1600, 50);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(358, 849);
+            this.groupBox6.TabIndex = 30;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "说明";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Font = new System.Drawing.Font("宋体", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.richTextBox1.Location = new System.Drawing.Point(38, 38);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
+            this.richTextBox1.Size = new System.Drawing.Size(299, 762);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "\n@author: wwhao\n 1.超前进位加法器（√）\n 2.内部使用补码运算（√）\n 3.输出显示真值（√）\n 4.最高位为符号位使加减法统一（√）\n   " +
+    "   \n无论操作数是正是负，在做补码加减法时，只需将符号位和数值部分一起参加运算，并且将符号位产生的进位自然丢掉即可\n\n     ";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // Form1_wwh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1482, 954);
+            this.ClientSize = new System.Drawing.Size(1902, 1033);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.label40);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.checkBox_b4);
-            this.Controls.Add(this.checkBox_b3);
-            this.Controls.Add(this.checkBox_b2);
-            this.Controls.Add(this.checkBox_b1);
-            this.Controls.Add(this.checkBox_b5);
-            this.Controls.Add(this.checkBox_b7);
-            this.Controls.Add(this.checkBox_b6);
-            this.Controls.Add(this.checkBox_a4);
-            this.Controls.Add(this.checkBox_a3);
-            this.Controls.Add(this.checkBox_a2);
-            this.Controls.Add(this.checkBox_a1);
-            this.Controls.Add(this.checkBox_a5);
-            this.Controls.Add(this.checkBox_a7);
-            this.Controls.Add(this.checkBox_a6);
             this.Controls.Add(this.title);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox5);
-            this.Name = "Form1";
+            this.Name = "Form1_wwh";
             this.Text = "Form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -1380,6 +1281,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1388,29 +1290,12 @@
         #endregion
 
         private System.Windows.Forms.Label title;
-        private System.Windows.Forms.CheckBox checkBox_a6;
-        private System.Windows.Forms.CheckBox checkBox_a7;
         private System.Windows.Forms.Label num1;
-        private System.Windows.Forms.CheckBox checkBox_a5;
-        private System.Windows.Forms.CheckBox checkBox_a1;
-        private System.Windows.Forms.CheckBox checkBox_a2;
-        private System.Windows.Forms.CheckBox checkBox_a3;
-        private System.Windows.Forms.CheckBox checkBox_a4;
-        private System.Windows.Forms.CheckBox checkBox_a0;
-        private System.Windows.Forms.CheckBox checkBox_b0;
-        private System.Windows.Forms.CheckBox checkBox_b4;
-        private System.Windows.Forms.CheckBox checkBox_b3;
-        private System.Windows.Forms.CheckBox checkBox_b2;
-        private System.Windows.Forms.CheckBox checkBox_b1;
-        private System.Windows.Forms.CheckBox checkBox_b5;
         private System.Windows.Forms.Label num2;
-        private System.Windows.Forms.CheckBox checkBox_b7;
-        private System.Windows.Forms.CheckBox checkBox_b6;
         private System.Windows.Forms.Label isCarry;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button start;
         private System.Windows.Forms.TextBox input_result;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.CheckBox checkBox_c1;
         private System.Windows.Forms.CheckBox checkBox_c5;
@@ -1502,6 +1387,15 @@
         private System.Windows.Forms.TextBox ip0;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.TextBox num2_wwh;
+        private System.Windows.Forms.TextBox num1_wwh;
+        private System.Windows.Forms.TextBox oriData1_wwh;
+        private System.Windows.Forms.TextBox oriData2_wwh;
+        private System.Windows.Forms.TextBox deciNum;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 
